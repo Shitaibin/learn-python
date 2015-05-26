@@ -32,7 +32,7 @@ class CounterList(list):
 
     def __getitem__(self, index):
         self.counter += 1
-        return super(CounterList, self).__getitem__(index)
+        return super(CounterList, self).__getitem__(index)  # super other methods
 
 counter = CounterList(range(10))
 print(counter)

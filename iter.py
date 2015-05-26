@@ -14,3 +14,8 @@ for f in fibs:
         print(f)
         break
 
+it = iter(Fibs())  #create a iterator from an iteratorable object
+it.__next__()
+print(it)
+print(it.__next__())
+
