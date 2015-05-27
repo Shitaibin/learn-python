@@ -11,11 +11,14 @@ def listall(module):
     finally:
         return ['No __all__']
 
-import copy     # for make example
-# use help
-help(copy)
-help(copy.copy)
+def test():
+	import copy     # for make example
+	# use help
+	help(copy)
+	help(copy.copy)
+	
+	# print __doc__
+	print(copy.__doc__)
+	print(copy.copy.__doc__)
 
-# print __doc__
-print(copy.__doc__)
-print(copy.copy.__doc__)
+if __name__ == '__main__': test()
