@@ -62,6 +62,10 @@ class PrimesTestCase(unittest.TestCase):
                          msg="5 should be next prime of 4")
         self.assertEqual(get_next_prime(20), 23,
                          msg="23 should be next prime of 20")
+        ##################################
+        #
+        self.assertNotEqual(get_next_prime(3), 4,
+                         msg="4 should not determinded be the next prime of 20")
 
 
 #####################################################
