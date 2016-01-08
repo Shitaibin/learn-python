@@ -1,7 +1,7 @@
 # if you want use this module, you should use
-# import package.hi
+# import pkg.hi
 # or
-# from package import hi
+# from pkg import hi
 
 def hi():
     print('Hi, py')
