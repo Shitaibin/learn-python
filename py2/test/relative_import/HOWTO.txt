@@ -1,0 +1,5 @@
+在包的顶层目录的父目录运行程序。已运行relative_import/test/test.py为例。
+
+python -m relative_import.test.test
+
+不要忘记-m选项。
